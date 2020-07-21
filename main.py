@@ -22,3 +22,4 @@ for i in range (1,99999):
   m = random.randint (1,6)
   randomlist3.append(m)
 print(randomlist3)
+
