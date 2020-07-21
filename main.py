@@ -4,22 +4,31 @@ import random
 #create list 100
 #create list 100000
 
-randomList = [1,6]
-for i in range (1,9):
+randomListone = []
+for i in range (10):
   n = random.randint (1,6)
-  randomList.append(n)
-  print(randomList)
+  randomListone.append(n)
+  
 
-randomList2 = [1,6]
-for i in range (1,99): 
+randomListtwo = []
+for i in range(100): 
   r = random.randint (1,6) 
-  randomList2.append(r)
-  print(randomList2)
+  randomListtwo.append(r)
+  
 
 
-randomlist3 = [1,6]
-for i in range (1,99999):
+randomlistthree = []
+for i in range (100000):
   m = random.randint (1,6)
-  randomlist3.append(m)
-print(randomlist3)
+  randomlistthree.append(m)  
+
+
+percentageN = input(1/10)*6 
+percentageR = input(1/100)*6
+percentageM = input (1/10000)*6
+
+print(percentageN)
+print(percentageR)
+print(percentageM)
+
 
